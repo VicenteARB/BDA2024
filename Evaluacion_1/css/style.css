@@ -1,0 +1,141 @@
+html, body{
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: 'Montserrat', sans-serif;
+    color: white
+}
+
+
+@media screen and (min-width: 788px){
+    .topCardGroup{
+        display: flex;
+    }
+    
+    .firstCard, .secondCard{
+        width: 50%;
+    }
+}
+
+.navBar{
+    display: flex;
+    background: rgb(226,141,14);
+    background: linear-gradient(90deg, rgba(243, 81, 37, 0.93) 14%, rgba(255,29,0,1) 100%);
+    height: 50px;
+    box-shadow: 3px 3px 5px grey;
+    margin-bottom: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo, h1{
+    color: white;
+}
+
+.logo, img{
+    margin-left: 15px;
+    height: 90%;
+}
+
+.buttonGroup {
+    margin-left: auto; 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.firstButton, .secondButton{
+    height: 40px;
+    border-radius: 5px;
+    background-color:  white;
+    color:  black;
+    cursor: pointer;
+    
+}
+
+.firstButton{
+    margin-right: 5px;
+}
+
+.firstButton:hover,
+.secondButton:hover {
+    background-color: rgba(239, 135, 106, 0.93);
+    color: white; 
+}
+
+.mainCardGroup{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.firstCard img{
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    border-radius: 0px 0px 5px 0px;
+}
+
+
+
+
+
+.secondCard{
+    padding: 10px;
+    border-bottom: 5px solid;
+    border-top: 10px solid;
+    border-color: rgba(255,29,0,1);
+}
+
+.titleGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleGroup img{
+    height: 50px;
+    margin: 5px;
+}
+
+.viewMore{
+    display: flex;
+    justify-content: center;
+}
+
+.viewMore button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius:10px;
+    background-color:  white;
+    color:  black;
+    cursor: pointer;
+}
+.viewMore button:hover {
+    background-color: rgba(239, 135, 106, 0.93);
+    color: white; 
+}
+
+
+
+
+
+
+
+
+
+
