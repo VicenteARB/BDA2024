@@ -15,11 +15,22 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 @media screen and (min-width: 788px){
     .topCardGroup{
         display: flex;
+        flex-direction: row-reverse;
     }
     
     .firstCard, .secondCard{
         width: 50%;
     }
+
+    .bottomCardGroup{
+        display: flex;
+    }
+
+    .thirdCard, .fourthCard{
+        width: 50%;
+    }
+
+
 }
 
 .navBar{
@@ -78,21 +89,20 @@ h1, h2, h3, h4, h5, h6, p, a, button {
     padding: 0px;
 }
 
+.firstCard, .secondCard, .thirdCard, .fourth-card{
+    height: 350px;
+}
+
 
 .firstCard img{
     height: auto;
     width: 100%;
     margin: 0px;
-    border-radius: 0px 0px 5px 0px;
 }
-
-
-
 
 
 .secondCard{
     padding: 10px;
-    border-bottom: 5px solid;
     border-top: 10px solid;
     border-color: rgba(255,29,0,1);
 }
@@ -128,6 +138,30 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 .viewMore button:hover {
     background-color: rgba(239, 135, 106, 0.93);
     color: white; 
+}
+
+
+.thirdCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 10px solid;
+    border-color: rgba(255,29,0,1);
+
+}
+
+.thirdCard h2{
+}
+
+.fourthCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthCard img{
+    width: 60%;
+    height: auto;
 }
 
 
