@@ -101,6 +101,53 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 
     }
 
+    .footer{
+        margin-top: 100px !important;
+        flex-direction:row !important;
+    }
+
+    .socialsIcons{
+        display: flex;
+        justify-content: start !important;
+        width: 33%;
+    }
+    
+    .socialsIcons img{
+        height: 15% !important;
+        width: auto !important;
+    }
+
+    .aboutMe{
+        margin-top: 0px !important;
+        text-align: end;
+        width: 50%;
+        margin-right: 10px;
+    }
+
+
+
+    .subFooter{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 66%;
+    }
+
+    .subFooter h4{
+        margin-top: 100px;
+        width: 50%;
+    }
+
+    .firstButton{
+        display: flex !important;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+
+
+
+    
+
 
 
 }
@@ -145,7 +192,7 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 }
 
 .firstButton{
-    margin-right: 5px;
+    display: none;
 }
 
 
@@ -159,6 +206,7 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 .firstCard, .secondCard, .thirdCard, .fourthCard {
     width: 100%;
     min-height: 360px;
+    box-shadow: 0px 3px 10px rgba(61, 60, 60, 0.5);
 }
 
 
@@ -292,33 +340,29 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 
 
 .footer{
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-
-}
-
-
-.footer h4{
     text-align: center;
-    width: 33%;
+
 }
 
 .aboutMe{
-    text-align: end;
-    width: 33%;
-
+    margin-top: 5px;
 }
 
 
 .socialsIcons{
     display: flex;
-    width: 33%;
+    justify-content: center;
+
 }
 
 .socialsIcons img{
-    height: 15%;
-    width: auto;
+    height: auto;
+    width: 10%;
 }
 
 
@@ -327,6 +371,57 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 
 
 
+/*Sección perfil*/
 
+
+.profileCard{
+    background-color: #00fff9;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(30deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(150deg, #000000 12%, transparent 12.5%, transparent 87%, #000000 87.5%, #000000), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077), linear-gradient(60deg, #00000077 25%, transparent 25.5%, transparent 75%, #00000077 75%, #00000077);
+    background-size: 80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.innerCard{
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    width: 50%;
+}
+
+
+.innerCard img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.innerCard a{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+}
+
+.innerCard a:hover{
+    background-color: #00fff9;
+    cursor: pointer;
+}
 
 
